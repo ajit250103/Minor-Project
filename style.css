@@ -13,12 +13,21 @@
     color: green;
     padding: 20px;
   }
-  #header{
+  
+#header{
+    background: aquamarine;
+
     position: fixed;
-    background-color: aquamarine;
-    text-align: center;
-    padding-left: 40%;
-    padding-right: 34%;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 999px;
+
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
     
    
   }
